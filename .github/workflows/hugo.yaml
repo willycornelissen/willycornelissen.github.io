@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - main  # Mude para 'master' se for o caso da sua branch principal
+      - master  # Mude para 'master' se for o caso da sua branch principal
 
   workflow_dispatch:
 
