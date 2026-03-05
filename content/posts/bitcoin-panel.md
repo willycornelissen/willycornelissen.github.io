@@ -2,6 +2,7 @@
 date = '2026-03-03T09:00:10-03:00'
 draft = false
 title = 'Bitcoin Panel'
+thumbnail: "img/bitcoint.webp"
 +++
 
 # Bitcoin Panel CLI
