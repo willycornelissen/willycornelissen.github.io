@@ -2,12 +2,16 @@
 date = '2026-03-03T09:00:10-03:00'
 draft = false
 title = 'Bitcoin Panel'
-thumbnail = "img/bitcoin.webp"
+featureimage = "img/bitcoin.webp"
 +++
 
 # Bitcoin Panel CLI
 
 Uma ferramenta de linha de comando (CLI) escrita em Go para consultar a cotação atual do Bitcoin em Dólar (USD) e Real (BRL), com suporte a fallback automático entre APIs.
+
+## Repositório
+
+[https://github.com/willycornelissen/bitcoin-panel](https://github.com/willycornelissen/bitcoin-panel)
 
 ## 🚀 Funcionalidades
 

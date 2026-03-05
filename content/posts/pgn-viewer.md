@@ -2,12 +2,16 @@
 date = '2026-03-03T08:25:57-03:00'
 draft = false
 title = 'PGN Viewer'
-thumbnail: "img/chess.webp"
+featureimage = "img/chess.webp"
 +++
 
 # Visualizador de Xadrez PGN
 
 Este projeto é uma aplicação desktop leve e intuitiva para visualizar jogos de xadrez armazenados em arquivos no formato PGN (*Portable Game Notation*).
+
+## Repositório
+
+[https://github.com/willycornelissen/pgn-viewer](https://github.com/willycornelissen/pgn-viewer)
 
 ## 🚀 Solução Tecnológica
 

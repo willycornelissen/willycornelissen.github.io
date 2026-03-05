@@ -32,3 +32,68 @@ h1, h2, h3, h4, h5, h6 {
 .dark .flex.flex-col.items-center.text-center .text-xl {
     color: rgb(var(--color-neutral-400));
 }
+
+/* Enhanced article list items styling similar to danicat.dev */
+article.article-item,
+.prose article {
+    border: 1px solid rgb(var(--color-neutral-200));
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(255 255 255 / 0.5);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.dark article.article-item,
+.dark .prose article {
+    border-color: rgb(var(--color-neutral-700));
+    background-color: rgb(0 0 0 / 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.32);
+}
+
+/* Hover effect with elevation and enhanced shadow */
+article.article-item:hover,
+.prose article:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+    border-color: rgb(var(--color-primary-300));
+    background-color: rgb(255 255 255 / 0.8);
+}
+
+.dark article.article-item:hover,
+.dark .prose article:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.48);
+    border-color: rgb(var(--color-primary-600));
+    background-color: rgb(0 0 0 / 0.35);
+}
+
+/* Article metadata styling */
+article.article-item .prose,
+article.article-item > :not(h1):not(h2):not(h3):not(:first-child) {
+    margin-top: 0.75rem;
+}
+
+/* Enhanced links and titles within articles */
+article.article-item a,
+.prose article a {
+    color: rgb(var(--color-primary-600));
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.dark article.article-item a,
+.dark .prose article a {
+    color: rgb(var(--color-primary-400));
+}
+
+article.article-item a:hover,
+.prose article a:hover {
+    color: rgb(var(--color-primary-700));
+    text-decoration: underline;
+}
+
+.dark article.article-item a:hover,
+.dark .prose article a:hover {
+    color: rgb(var(--color-primary-300));
+}
