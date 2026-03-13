@@ -1,8 +1,8 @@
 +++
 date = '2026-03-12T10:29:35-03:00'
-draft = falsee
+draft = false
 title = 'Portuguese TTS'
-featureimage = "img/tts.png"
+featureimage = "img/tts.jpg"
 +++
 
 # Portuguese TTS CLI
