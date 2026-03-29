@@ -2,7 +2,7 @@
 date = '2026-03-28T21:43:45-03:00'
 draft = false 
 title = 'Photo Label'
-featureimage = "img/bitcoin.webp"
+featureimage = "img/label.png"
 +++
 
 # Photo Label
