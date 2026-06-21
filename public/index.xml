@@ -9,7 +9,17 @@
     <managingEditor>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</managingEditor>
     <webMaster>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</webMaster>
     
-    <lastBuildDate>Sat, 28 Mar 2026 21:43:45 -0300</lastBuildDate><atom:link href="https://willycornelissen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jun 2026 18:00:00 -0300</lastBuildDate><atom:link href="https://willycornelissen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adler Review Generator</title>
+      <link>https://willycornelissen.github.io/posts/adler-review/</link>
+      <pubDate>Sun, 21 Jun 2026 18:00:00 -0300</pubDate>
+      <author>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</author>
+      <guid>https://willycornelissen.github.io/posts/adler-review/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Photo Label</title>
