@@ -2,7 +2,6 @@
 title: "Bem-vindo"
 ---
 
-Having fun with software development and technologies. 
-**Show me the code!**
+Having fun with Spec Driven Development (SDD).
 
 

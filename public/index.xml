@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bem-vindo on willy.dev.br</title>
-    <link>http://localhost:1313/</link>
+    <link>https://willycornelissen.github.io/</link>
     <description>Recent content in Bem-vindo on willy.dev.br</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</managingEditor>
     <webMaster>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</webMaster>
     
-    <lastBuildDate>Sat, 28 Mar 2026 21:43:45 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Mar 2026 21:43:45 -0300</lastBuildDate><atom:link href="https://willycornelissen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Photo Label</title>
-      <link>http://localhost:1313/posts/photo-label/</link>
+      <link>https://willycornelissen.github.io/posts/photo-label/</link>
       <pubDate>Sat, 28 Mar 2026 21:43:45 -0300</pubDate>
       <author>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</author>
-      <guid>http://localhost:1313/posts/photo-label/</guid>
+      <guid>https://willycornelissen.github.io/posts/photo-label/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Portuguese TTS</title>
-      <link>http://localhost:1313/posts/pt-tts/</link>
+      <link>https://willycornelissen.github.io/posts/pt-tts/</link>
       <pubDate>Thu, 12 Mar 2026 10:29:35 -0300</pubDate>
       <author>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</author>
-      <guid>http://localhost:1313/posts/pt-tts/</guid>
+      <guid>https://willycornelissen.github.io/posts/pt-tts/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bitcoin Panel</title>
-      <link>http://localhost:1313/posts/bitcoin-panel/</link>
+      <link>https://willycornelissen.github.io/posts/bitcoin-panel/</link>
       <pubDate>Tue, 03 Mar 2026 09:00:10 -0300</pubDate>
       <author>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</author>
-      <guid>http://localhost:1313/posts/bitcoin-panel/</guid>
+      <guid>https://willycornelissen.github.io/posts/bitcoin-panel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>PGN Viewer</title>
-      <link>http://localhost:1313/posts/pgn-viewer/</link>
+      <link>https://willycornelissen.github.io/posts/pgn-viewer/</link>
       <pubDate>Tue, 03 Mar 2026 08:25:57 -0300</pubDate>
       <author>willy.cornelissen@gmail.com (Willy Garabini Cornelissen)</author>
-      <guid>http://localhost:1313/posts/pgn-viewer/</guid>
+      <guid>https://willycornelissen.github.io/posts/pgn-viewer/</guid>
       <description></description>
       
     </item>
