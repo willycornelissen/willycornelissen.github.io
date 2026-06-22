@@ -241,7 +241,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "903"
+    "wordCount": "980"
   }]
   </script>
 
@@ -525,7 +525,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-06-21T18:00:00-03:00">21 June 2026</time><span class="px-2 text-primary-500">&middot;</span><span>903 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+      <time datetime="2026-06-21T18:00:00-03:00">21 June 2026</time><span class="px-2 text-primary-500">&middot;</span><span>980 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     
@@ -801,9 +801,16 @@
     </span>
     
 </h3>
-<p>A forma recomendada de fornecer a chave do Gemini é por meio da variável de ambiente <code>GEMINI_API_KEY</code>:</p>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GEMINI_API_KEY</span><span class="o">=</span><span class="s2">&#34;sua-chave-api-aqui&#34;</span></span></span></code></pre></div></div>
+<p>A forma recomendada de fornecer as chaves de API é por meio de variáveis de ambiente:</p>
+<ul>
+<li>Para o <strong>Gemini</strong>: <code>GEMINI_API_KEY</code></li>
+<li>Para a <strong>Groq</strong>: <code>GROQ_API_KEY</code></li>
+</ul>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GEMINI_API_KEY</span><span class="o">=</span><span class="s2">&#34;sua-chave-gemini-aqui&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ou</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GROQ_API_KEY</span><span class="o">=</span><span class="s2">&#34;sua-chave-groq-aqui&#34;</span></span></span></code></pre></div></div>
 <p>Alternativamente, você pode fornecer a chave diretamente via flag ao executar o utilitário.</p>
+<p>Se nenhuma chave for encontrada nas variáveis de ambiente ou via flag, o utilitário <strong>solicitará a chave de forma interativa</strong> diretamente no terminal, permitindo que você digite ou cole a sua API Key do provedor correspondente para iniciar o processo.</p>
 <hr>
 
 <h3 class="relative group">Executando a Ferramenta
@@ -838,6 +845,12 @@
 	</thead>
 	<tbody>
 			<tr>
+					<td><code>--provider</code></td>
+					<td><code>-p</code></td>
+					<td>string</td>
+					<td>Provedor de LLM: <code>gemini</code> ou <code>groq</code> (Default: <code>gemini</code>)</td>
+			</tr>
+			<tr>
 					<td><code>--output</code></td>
 					<td><code>-o</code></td>
 					<td>string</td>
@@ -847,13 +860,13 @@
 					<td><code>--key</code></td>
 					<td><code>-k</code></td>
 					<td>string</td>
-					<td>Sobrescreve/fornece a Chave de API do Google AI diretamente por comando</td>
+					<td>Sobrescreve/fornece a Chave de API do provedor diretamente por comando</td>
 			</tr>
 			<tr>
 					<td><code>--model</code></td>
 					<td><code>-m</code></td>
 					<td>string</td>
-					<td>Sobrescrita manual para usar um modelo Gemini específico (ex: <code>gemini-1.5-pro</code>)</td>
+					<td>Sobrescrita manual para usar um modelo específico (ex: <code>llama-3.3-70b-versatile</code> para groq, ou <code>gemini-1.5-pro</code> para gemini)</td>
 			</tr>
 			<tr>
 					<td><code>--help</code></td>
@@ -863,6 +876,17 @@
 			</tr>
 	</tbody>
 </table>
+
+<h4 class="relative group">Exemplo de Uso com Groq:
+    <div id="exemplo-de-uso-com-groq" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#exemplo-de-uso-com-groq" aria-label="Anchor">#</a>
+    </span>
+    
+</h4>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">./adler-review --provider groq -o resenha_cristianismo.md</span></span></code></pre></div></div>
 
 <h4 class="relative group">Exemplo de Uso com Flags:
     <div id="exemplo-de-uso-com-flags" class="anchor"></div>
