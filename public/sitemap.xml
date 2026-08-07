@@ -3,43 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://willycornelissen.github.io/posts/adler-review/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-08T08:25:57-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/estante/</loc>
+    <lastmod>2026-07-08T08:25:57-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-08T08:25:57-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/adler-review/</loc>
     <lastmod>2026-06-21T18:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://willycornelissen.github.io/</loc>
-    <lastmod>2026-06-21T18:00:00-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://willycornelissen.github.io/posts/</loc>
-    <lastmod>2026-06-21T18:00:00-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://willycornelissen.github.io/posts/photo-label/</loc>
+    <loc>http://localhost:1313/posts/photo-label/</loc>
     <lastmod>2026-03-28T21:43:45-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://willycornelissen.github.io/posts/pt-tts/</loc>
+    <loc>http://localhost:1313/posts/pt-tts/</loc>
     <lastmod>2026-03-12T10:29:35-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://willycornelissen.github.io/posts/bitcoin-panel/</loc>
+    <loc>http://localhost:1313/posts/bitcoin-panel/</loc>
     <lastmod>2026-03-03T09:00:10-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://willycornelissen.github.io/posts/pgn-viewer/</loc>
+    <loc>http://localhost:1313/posts/pgn-viewer/</loc>
     <lastmod>2026-03-03T08:25:57-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
