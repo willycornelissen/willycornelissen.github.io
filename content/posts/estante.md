@@ -11,7 +11,7 @@ Gerenciador da biblioteca pessoal de livros físicos.
 
 ## Repositório
 
-[https://github.com/willycornelissen/estante](https://github.com/willycornelissen/pt-estante)
+[https://github.com/willycornelissen/estante](https://github.com/willycornelissen/estante)
 
 - **Frontend:** React + Vite
 - **Hospedagem:** GitHub Pages
