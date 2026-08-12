@@ -17,6 +17,14 @@ Gerenciador da biblioteca pessoal de livros físicos.
 - **Hospedagem:** GitHub Pages
 - **Banco de dados:** Firebase (Firestore + Auth)
 
+- ## Demo Funcional
+
+[https://estante.willy.dev.br](https://estante.willy.dev.br)
+
+- **Frontend:** React + Vite
+- **Hospedagem:** GitHub Pages
+- **Banco de dados:** Firebase (Firestore + Auth)
+
 ## Rodar localmente
 
 ```bash
