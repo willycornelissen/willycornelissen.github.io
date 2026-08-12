@@ -16,6 +16,10 @@ próprio e import/export no formato Netscape HTML.
 
 [https://github.com/willycornelissen/marcador](https://github.com/willycornelissen/marcador)
 
+## Demo Funcional
+
+[https://marcador.willy.dev.br](https://marcador.willy.dev.br)
+
 ## Recursos
 
 - **Leitura pública** — qualquer visitante vê o catálogo; só o admin escreve.
