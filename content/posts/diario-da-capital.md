@@ -7,9 +7,13 @@ featureimage = "img/diario-da-capital.jpg"
 
 # Diário da Capital
 
-Jornal digital estático: edições com resumos (gerados por LLM) das últimas
-notícias de fontes cadastradas. Site público no GitHub Pages; edições geradas
-sob demanda pelo administrador via GitHub Actions.
+A Cidade da Residência, habitualmente tratada como a Capital do país onde Castália está inserida,  funciona como a antítese geográfica, política e filosófica da província pedagógica de Castália. 
+
+A dualidade entre o Diária de Castália e o Diário da Capital sintetiza o dilema central de Hermann Hesse:
+
+**Diário de Castália:** Representa a Vita Contemplativa — o espírito, a atemporalidade, a ordem abstrata e a torre de marfim.
+
+**Diário da Capital:** Representa a Vita Activa — a matéria, a história, o conflito moral, a família e a responsabilidade cívica no mundo real.
 
 ## Site
 
@@ -20,6 +24,10 @@ sob demanda pelo administrador via GitHub Actions.
 [https://github.com/willycornelissen/clipping](https://github.com/willycornelissen/clipping)
 
 ## Recursos
+
+Jornal digital estático: edições com resumos (gerados por LLM) das últimas
+notícias de fontes cadastradas. Site público no GitHub Pages; edições geradas
+sob demanda pelo administrador via GitHub Actions.
 
 - **Edições sob demanda** — o administrador dispara o workflow "Gerar Edição";
   o bot coleta as notícias, gera os resumos com LLM, commita a edição e o site
