@@ -5,8 +5,6 @@ title = "Juntos"
 featureimage = "img/juntos.png"
 +++
 
-# Juntos
-
 **Juntos** é uma aplicação web estática (SPA em **React 19 + Vite + TypeScript**) projetada para ser hospedada no **GitHub Pages** e integrada ao **Firebase (Authentication + Cloud Firestore)**. Ela permite que professores façam o acompanhamento longitudinal das suas turmas e da ficha particular de cada aluno a partir da importação periódica das planilhas de chamada (`.xlsx`).
 
 ## Site
