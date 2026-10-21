@@ -1,7 +1,8 @@
 +++
 date = '2026-10-21T13:13:22-03:00'
 draft = false
-title = "img/juntos.png"
+title = "Juntos"
+featureimage = "img/juntos.png"
 +++
 
 # Juntos
