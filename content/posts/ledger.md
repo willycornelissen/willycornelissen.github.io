@@ -1,6 +1,6 @@
 +++
 date = '2026-11-04T13:50:37-03:00'
-draft = False 
+draft = false 
 title = 'Ledger'
 featureimage = "img/ledger.png"
 +++
