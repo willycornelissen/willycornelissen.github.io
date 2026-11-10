@@ -2,7 +2,7 @@
 date = '2026-11-10T10:50:33-03:00'
 draft = false 
 title = 'Resenha'
-featureimage = "img/tts.jpg"
+featureimage = "img/adler.jpg"
 +++
 
 # Agente de Resenhas (AaaS Literário)
@@ -12,6 +12,13 @@ Aplicação Single Page Application (SPA) para resenhas críticas literárias au
 Construída sob a governança agêntica do **ECC (*Everything Claude Code*)**.
 
 ---
+
+# Site
+[https://resenha.willy.dev.br](https://resenha.willy.dev.br)
+
+# Repositório
+
+[https://github.com/willycornelissen/resenha](https://github.com/willycornelissen/resenha)
 
 ## 💡 Proposta de Valor & Arquitetura
 
