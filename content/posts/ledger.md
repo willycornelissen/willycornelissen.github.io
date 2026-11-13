@@ -16,12 +16,13 @@ Construído sob a arquitetura **Local-First**, o Ledger garante que seus dados f
 
 O projeto foi projetado com abordagem *mobile-first* e opera perfeitamente tanto como **aplicativo web progressivo (PWA)** no navegador quanto como **aplicativo nativo Android** (via Capacitor).
 
----
+# Site
+[https://ledger.willy.dev.br](https://ledger.willy.dev.br)
 
 # Repositório
 
 [https://github.com/willycornelissen/ledger](https://github.com/willycornelissen/ledger)
-
+---
 
 ## ✨ Principais Funcionalidades
 

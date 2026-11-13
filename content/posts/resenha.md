@@ -11,14 +11,14 @@ Aplicação Single Page Application (SPA) para resenhas críticas literárias au
 
 Construída sob a governança agêntica do **ECC (*Everything Claude Code*)**.
 
----
-
 # Site
 [https://resenha.willy.dev.br](https://resenha.willy.dev.br)
 
 # Repositório
 
 [https://github.com/willycornelissen/resenha](https://github.com/willycornelissen/resenha)
+
+---
 
 ## 💡 Proposta de Valor & Arquitetura
 
