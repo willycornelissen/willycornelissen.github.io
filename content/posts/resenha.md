@@ -24,16 +24,6 @@ Construída sob a governança agêntica do **ECC (*Everything Claude Code*)**.
 
 O sistema atua como um gerador de referência analítica sob demanda para escritores, críticos e leitores:
 
-```mermaid
-flowchart LR
-    User["👤 Usuário"] --> UI["💻 Web SPA (GitHub Pages)"]
-    UI -->|1. Busca ágil de livro| Catalog["📚 Open Library & Google Books"]
-    Catalog -->|2. Metadados factuais + capa| UI
-    UI -->|3. Prompt estruturado com grounding| GeminiAgent["🤖 Agente Crítico (Gemini)"]
-    GeminiAgent -->|4. Resenha em streaming| UI
-    UI -->|5. Botão 1-Clique| Clipboard["📋 Área de Transferência"]
-```
-
 ### Funcionalidades Chave:
 1. **Catálogo Global Aberto**: Busca ágil em tempo real com Open Library e Google Books, sem necessidade de chaves de catálogo ou servidores intermediários.
 2. **Pesquisa Exclusiva por ISBN & Busca com IA**: Aba dedicada para consulta direta por código ISBN (10 ou 13 dígitos) com identificação exata da edição nos acervos internacionais, além de resolução inteligente via IA.
