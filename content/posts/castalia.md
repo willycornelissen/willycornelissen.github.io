@@ -2,12 +2,20 @@
 date = '2026-11-16T07:40:20-03:00'
 draft = false
 title = 'Diário de Castália'
-featureimage = "img/castalia.png"
+featureimage = "img/diario-de-castalia.jpg"
 +++
 
 # Castalia — Ghost Newspaper Clone (GitHub Pages + Firebase)
 
 Aplicação Single-Page Application (SPA) inspirada no CMS **Ghost** e no tema editorial **Newspaper**, desenvolvida com **React + TypeScript + Vite + Tailwind CSS**, pronta para publicação no **GitHub Pages** (com migração opcional para Firebase Hosting) e backend no **Firebase** (**Cloud Firestore**, **Firebase Authentication** e opcionalmente **Firebase Storage**).
+
+## Site
+
+[https://castalia.willy.dev.br](https://castalia.willy.dev.br)
+
+## Repositório
+
+[https://github.com/willycornelissen/castalia](https://github.com/willycornelissen/castalia)
 
 ## Arquitetura
 
